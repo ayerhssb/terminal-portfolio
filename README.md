@@ -2,7 +2,7 @@
 
 Welcome to my interactive, command-line themed personal portfolio! This project simulates a terminal interface where you can explore my experience, projects, skills, and more by typing commands.
 
-If you prefer a standard Graphical User Interface (GUI), you can view the GUI version here: [https://portfolio-shreya-b.vercel.app/](https://portfolio-shreya-b.vercel.app/)
+You can view the GUI version here: [https://portfolio-shreya-b.vercel.app/](https://portfolio-shreya-b.vercel.app/)
 
 ## Images
 
