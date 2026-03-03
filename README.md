@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio (Terminal Edition) 💻
 
-## Getting Started
+Welcome to my interactive, command-line themed personal portfolio! This project simulates a terminal interface where you can explore my experience, projects, skills, and more by typing commands.
 
-First, run the development server:
+If you prefer a standard Graphical User Interface (GUI), you can view the GUI version here: [https://portfolio-shreya-b.vercel.app/](https://portfolio-shreya-b.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📸 Screenshots
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+*(I noticed you attached screenshots. I have added placeholder links for them below. Please save your screenshots inside the `public` folder as `screenshot1.png` and `screenshot2.png` for them to show here!)*
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Portfolio Screenshot 1](./public/screenshot1.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![Portfolio Screenshot 2](./public/screenshot2.png)
 
-## Learn More
+## 🚀 Getting Started Locally
 
-To learn more about Next.js, take a look at the following resources:
+Want to run this terminal portfolio on your own machine or customise it for yourself? Follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
+- Node.js (v18 or higher recommended)
+- npm, yarn, or pnpm
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Installation Steps
 
-## Deploy on Vercel
+1. **Clone the repository:**
+   If you have the code locally, navigate to the project folder:
+   ```bash
+   cd portfolio-v200
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   ```
+
+4. **Open in browser:**
+   Open [http://localhost:3000](http://localhost:3000) with your browser to experience your local terminal portfolio!
+
+## 🛠️ Making Your Own Changes
+
+You can start editing the content by modifying the components in the `src/components/commands/` directory. Each command (like `about`, `projects`, `skills`, etc.) has its own file managing what is printed to the screen.
+
+- Update your projects in `src/components/commands/ProjectsCommand.tsx`
+- Update your experience in `src/components/commands/ExperienceCommand.tsx`
+- Update your contact info in `src/components/commands/ContactCommand.tsx`
+- General terminal logic is in `src/components/TerminalProvider.tsx`
+
+Feel free to break things, build things, and make the terminal your own!
