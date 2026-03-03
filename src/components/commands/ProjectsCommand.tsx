@@ -22,19 +22,26 @@ export function ProjectsCommand({ specificProject }: { specificProject?: string 
             name: "Canvas - Whiteboard Collaboration App",
             desc: "Multi-user collaborative whiteboard focused on real-time interaction.",
             stack: "Next.js, TypeScript, Tailwind CSS, Websocket.",
-            links: ["[Code]", "[Live Demo]"]
+            links: [
+                { label: "[Code]", url: "https://github.com/ayerhssb/canvas-main" },
+                { label: "[Live Demo]", url: "https://canvas-app-blond.vercel.app/" }
+            ]
         },
         "2": {
             name: "CodeHelper - Chrome Extension",
             desc: "Context-aware Chrome extension for Leetcode providing step-wise hints using Gemini LLM.",
             stack: "JavaScript, Node.js, Express, Gemini LLM.",
-            links: ["[Code]", "[Live Demo]"]
+            links: [
+                { label: "[Code]", url: "https://github.com/ayerhssb/code-helper-extension" }
+            ]
         },
         "3": {
             name: "Cold Email And Resume Automation Platform",
             desc: "Automated email outreach platform using Llama 3.1 on Groq Cloud with LangChain pipelines.",
             stack: "Llama 3.1, Groq Cloud, LangChain, Gmail API.",
-            links: ["[Code]", "[Live Demo]"]
+            links: [
+                { label: "[Code]", url: "https://github.com/ayerhssb/cold-email-generator" }
+            ]
         }
     };
 
@@ -58,8 +65,8 @@ export function ProjectsCommand({ specificProject }: { specificProject?: string 
             <div className="flex flex-col sm:flex-row mt-2">
                 <span className="text-[#22d3ee] font-bold w-20 shrink-0">Links:</span>
                 <div className="flex space-x-4">
-                    {project.links.map((link: string, i: number) => (
-                        <a key={i} href="#" className="text-[#4ade80] hover:text-white underline transition-colors">{link}</a>
+                    {project.links.map((link: { label: string, url: string }, i: number) => (
+                        <a key={i} href={link.url} target="_blank" rel="noopener noreferrer" className="text-[#4ade80] hover:text-white underline transition-colors">{link.label}</a>
                     ))}
                 </div>
             </div>
