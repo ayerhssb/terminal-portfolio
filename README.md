@@ -1,8 +1,9 @@
 # Personal Portfolio (Terminal) 
 
 Welcome to my interactive, command-line themed personal portfolio! This project simulates a terminal interface where you can explore my experience, projects, skills, and more by typing commands.
+View my terminal portfolio: [My Portfolio](https://terminal-portfolio-blue-eight.vercel.app/)
 
-You can view the GUI version here: [https://portfolio-shreya-b.vercel.app/](https://portfolio-shreya-b.vercel.app/)
+You can view the GUI version here: [GUI Version](https://portfolio-shreya-b.vercel.app/)
 
 ## Images
 
