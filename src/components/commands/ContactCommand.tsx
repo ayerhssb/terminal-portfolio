@@ -75,9 +75,9 @@ export function ContactCommand({ onComplete }: { onComplete: () => void }) {
         <div className="mt-2 space-y-2">
             <div className="text-gray-300">Let's Connect! I'm always open to discussing new projects.</div>
             <div className="flex space-x-6 pb-2 text-[#4ade80]">
-                <a href="https://github.com/ayerhssb" className="underline hover:text-white transition-colors">GitHub</a>
-                <a href="https://www.linkedin.com/in/shreya-bharti-86465824b/" className="underline hover:text-white transition-colors">LinkedIn</a>
-                <a href="https://x.com/" className="underline hover:text-white transition-colors">Twitter</a>
+                <a href="https://github.com/ayerhssb" target="_blank" rel="noopener noreferrer" className="underline hover:text-white transition-colors">GitHub</a>
+                <a href="https://www.linkedin.com/in/shreya-bharti-86465824b/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white transition-colors">LinkedIn</a>
+                <a href="https://x.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white transition-colors">Twitter</a>
                 <a href="mailto:shreyabhartissb1@gmail.com" className="underline hover:text-white transition-colors">Email</a>
             </div>
 
